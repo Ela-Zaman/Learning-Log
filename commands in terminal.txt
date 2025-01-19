@@ -1,0 +1,13 @@
+
+#Creating a virtual environment : python -m venv ll_env
+#Activating the Virtual environment
+-.\ll_env/bin/activate
+
+#To stop using a vvirtual environment:
+    deactivate
+
+# Creating a Project in Django
+
+django-admin startproject ll_project . 
+ls
+ls ll_project
