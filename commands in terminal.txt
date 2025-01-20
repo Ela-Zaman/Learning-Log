@@ -39,3 +39,13 @@ localhost:8000/admin
 # Migrating a new model
     python manage.py makemigrations {file name}
     python manage.py migrate
+
+#Django Shell
+    python manage.py shell
+    from learning_logs.models import Topic
+    topics = Topic.objects.all()
+    for topic in topics:
+        print(topic.id, topic)
+    t= Topic.objects.get(id=1)
+    t.text
+    t.date_added
