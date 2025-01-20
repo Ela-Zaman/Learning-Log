@@ -1,7 +1,7 @@
 
 #Creating a virtual environment : python -m venv ll_env
 #Activating the Virtual environment
--.\ll_env/bin/activate
+-.\ll_env/bin/Activate
 
 #To stop using a vvirtual environment:
     deactivate
@@ -11,3 +11,12 @@
 django-admin startproject ll_project . 
 ls
 ls ll_project
+
+# Creating the Database
+python manage.py migrate
+ls
+# Viewing the Project 
+python manage.py runserver
+
+# To change the port
+python manage.py runserver 8001
