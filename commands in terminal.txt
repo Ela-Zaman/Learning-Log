@@ -1,7 +1,8 @@
 
 #Creating a virtual environment : python -m venv ll_env
 #Activating the Virtual environment
--.\ll_env/bin/Activate
+-.\ll_env\Scripts\Activate
+-.\\ll_env\Scripts\Activate
 
 #To stop using a vvirtual environment:
     deactivate
@@ -20,3 +21,14 @@ python manage.py runserver
 
 # To change the port
 python manage.py runserver 8001
+
+#Starting an app
+
+.\ll_env\Scripts\Activate
+python manage.py startapp learning_logs
+
+#modify the database so it can store information related
+to the model topic.
+From the terminal , run the following command:
+
+python manage.py makemigrations learning_logs
