@@ -35,3 +35,7 @@ python manage.py makemigrations learning_logs
 
 #How to access the admin site:
 localhost:8000/admin
+
+# Migrating a new model
+    python manage.py makemigrations {file name}
+    python manage.py migrate
