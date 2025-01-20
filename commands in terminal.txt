@@ -29,6 +29,9 @@ python manage.py startapp learning_logs
 
 #modify the database so it can store information related
 to the model topic.
-From the terminal , run the following command:
+#From the terminal , run the following command:
 
 python manage.py makemigrations learning_logs
+
+#How to access the admin site:
+localhost:8000/admin
