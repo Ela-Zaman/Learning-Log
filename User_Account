@@ -8,3 +8,13 @@ Step:
 User can add a new topic
 User can add a new entry
 User can edit their previous entry
+
+...............................................................................................
+Requirements:
+
+In this section, we’ll set up a user registration and authorization system so
+people can register an account, log in, and log out. We’ll create a new app
+to contain all the functionality related to working with users. We’ll use the
+default user authentication system included with Django to do as much
+of the work as possible. We’ll also modify the Top sic model slightly so every
+topic belongs to a certain user.
